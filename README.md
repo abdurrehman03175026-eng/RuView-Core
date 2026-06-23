@@ -15,6 +15,12 @@ This repository contains the standalone Core Machine Learning pipeline for a con
 - `export_onnx.py`: Script to convert the Python tensor graph into a cross-platform format.
 - `pose_tracker.onnx`: The fully trained, standalone mobile AI brain asset ready for frontend deployment.
 
+## 📊 Core Features & Training Analytics
+- **Training Performance:** Optimization error dropped from an initial `0.2094` down to **`0.0097 MSE Loss`** over 5 epochs.
+  ![Training Terminal Log](images/training_results.png)
+- **Validation Score:** Achieved an exceptional **`0.0092 Average Spatial Variance Error`** on completely unseen testing frames.
+  ![Testing Terminal Log](images/test_results.png)
+
 ## 🗺️ Future Roadmap
 - [x] Phase 1: Machine Learning Core Selection & Training (Completed)
 - [ ] Phase 2: Deno Backend API Integration
