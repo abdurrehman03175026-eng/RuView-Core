@@ -1,0 +1,9 @@
+# Ignore the massive dataset folder entirely
+MMFi_Dataset/
+
+# Ignore Python's automatic optimization caches
+__pycache__/
+
+# Ignore local tracking logs and raw python weight files
+test_files_list.txt
+frozen_weights.pth
